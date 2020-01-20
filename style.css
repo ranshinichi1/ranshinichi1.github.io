@@ -1,0 +1,298 @@
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#container{
+	width: 1920px;
+	height: 6000px;
+	background: #6F6F6F;
+	font-family: 'Poppins', 'sans-serif';
+	margin: 0px auto;
+}
+.top{
+	width: 1920px;
+	height: 1060px;
+	background: url(images/top1.png);
+}
+.toptext{
+	width: 540px;
+	height: 275px;
+	margin-top: 410px;
+	float: left;
+	margin-left: 306px;
+	}
+.topmenu{
+	width: 660px;
+	height: 15px;
+	float: right;
+	margin-top:82px;
+	margin-right: 282px;
+}
+.topmenu ul{
+	list-style: none;
+}
+.topmenu ul li{
+	display: inline-block;
+	margin-left: 38px;
+}
+.topmenu ul li a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #FFFFFF;
+	display: block;
+ 
+}
+.topmenu a:hover{
+	color: #02D871;
+	transition: 0.5s;
+}
+/*topmenu*/
+.toptext h1{
+	width: 660px;
+	height: 108px;
+	font-size: 50px;
+	font-family: 'Poppins', 'sans-serif';
+	margin-bottom: 40px;
+	color: white;
+}
+.toptext p{
+	width: 300px;
+	height: 16px; 
+	color:#ACACAC;
+	font-size: 16px;
+	font-family: 'Poppins', 'sans-serif';
+	}
+.toptext button{
+	width: 202px;
+	height: 55px;
+	border-radius: 45px;
+	background: #02D871;
+	border: 2px solid #02D871;
+	margin-top: 47px;
+	font-family: 'Poppins', 'bold';
+}
+.toptext button:hover{
+	transition: 0.5s;
+	color: #FFFFFF;
+	cursor: pointer;
+	box-shadow:0px 3px 10px black ;
+}
+/*toptext*/
+/*top*/
+.banner{
+	width: 1920px;
+	height: 765px;
+	background: #ebeef0;	
+	}
+.bannerimg{
+	width: 670px;
+	height: 465px;
+	float: left;
+	margin-top: 150px;
+	margin-left: 310px;
+}
+/*bannerimg*/
+.bannertext{
+	width: 510px;
+	height: 325px;
+	margin-right: 348px;
+	margin-top: 218px;
+	float: right;
+}
+.bannertext h1{
+	height: 78px;
+	margin-bottom: 45px;
+	color: #333333;
+}
+.bannertext ul{
+	height: 20px;
+	margin-bottom: 52px;
+}
+.bannertext ul li{
+	display: inline-block;
+	margin-right: 30px;
+		}
+.bannertext ul li a{
+	color: #02d871;
+	text-decoration: none;
+	font-size: 18px;
+	}
+.bannertext p{
+	font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+	height: 41px;
+	color: #2f3030;
+	margin-bottom: 37px;
+}
+.bannertext button{
+	width: 205px;
+	height: 52px;
+	border-radius:25px;
+	border:2px solid #02d871;
+	background: #02d871;
+}
+.bannertext button:hover{
+	transition: 0.5s;
+	color: #FFFFFF;
+	cursor: pointer;
+	box-shadow:0px 3px 10px black ;
+}
+/*bannertext*/
+/*banner*/
+.mid {
+	width: 1920px;
+	height: 425px;
+	background: #f5f6f6;
+	padding-top: 200px;
+	}
+.mid0{
+	width: 1233px;
+	height: 317px;
+	background: #f5f6f6;
+	margin: 0px auto;
+ 
+}
+.mid0 .mid1 {
+	width: 367px;
+	height: 317px;
+	background: #fff;
+	float: left;
+	margin-left: 34px;
+	text-align: center;
+	transition: 0.5s;
+	}
+.mid0 .mid1:hover{
+	background: #02D871;
+	border-radius: 5px;
+}
+.mid0 .mid1:hover h1{
+	color: white
+}
+.mid0 .mid1:hover p{
+	color: white
+}
+.mid0 .mid1:hover .hr{
+	border-color: white;
+}
+.mid1 img{
+	margin-top: 40px;
+}
+.mid1 h1{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	color: #222222;
+	text-transform:uppercase;
+}
+.mid .mid0 .mid1 a{
+	text-decoration: none
+}
+.mid1 p{
+	margin-top: 25px;
+	font-size: 15px;
+	color: #b6b6b6;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Raleway', sans-serif;
+}
+.hr{
+	width: 40px;
+	border: 2px solid #02D871;
+	border-radius: 4px;
+	margin: 0 auto;
+}
+/*mid*/
+.imgg{
+	width: 1920px;
+	height:1208px;
+	background: #F1f1f1;
+	padding-top: 120px;
+	}
+.browse ul {
+	list-style: none;
+}
+.browse ul li{
+	width: 210px;
+	height: 55px;
+	text-decoration: none;
+	border: 2px solid #02D871;
+	border-radius: 40px;
+	text-align: center;
+	line-height: 55px
+	}
+.browse ul li a{
+	text-decoration: none;
+	color: #02D871
+}
+
+.img6{
+	width: 1370px;
+	height: 955px;
+	margin: 0px auto;
+}
+.img6 h1{
+	text-align: center;
+	color: #b6b6b6;
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+.img6 .img16{
+	width: 430px;
+	height: 415px;
+	margin-left: 20px;
+	background: #B16465;
+	float: left;
+	margin-top: 13px;
+}
+.img6 .hr{
+	margin-bottom:30px
+}
+.img16 img{
+	width: 430px;
+	height: 415px;
+}
+.browse{
+	margin-left: 843px;
+	margin-top: 80px;
+}
+/*imgg*/
+.doibung{
+	width: 1920px;
+	height: 590px;
+	background: #EC6063;
+	}
+.doibungleft{
+	width: 1055px;
+	height: 590px;
+	position: relative;
+	background: #ebeef0;
+}
+.doibungicon{
+	width: 948px;
+	height: 532px;
+	background: #6A6A6A;
+	position: absolute;
+}
+.doibungtext{
+	width: 650px;
+	height: 295px;
+	background: #02D871;
+	position: absolute;
+	z-index: 2;
+	left: 195px;
+	top: 295px;
+}
+.doibungtext p{
+	margin-top: 112px;
+	width: 500px;
+	height: 85px;
+	text-align: left;
+	color: #FFFFFF;
+	margin-left: 45px;
+	}
+.doibungtext h3{
+	margin-left: 450px;
+	color: #fff;
+	margin-top: 20px;}
